@@ -1,0 +1,8 @@
+To add your custom images to the app:
+1. Upload your images to this folder (`/public/images`).
+2. Make sure the file names match the names used in the code:
+   - `hero-1.jpg`, `hero-2.jpg`, `hero-3.jpg` (For the Hero slider)
+   - `about.jpg` (For the About section)
+   - `gallery.jpg` (For the Gallery section)
+
+If you'd like to use different file names (e.g., `.png` files instead of `.jpg`), simply update the code in `components/Hero.tsx`, `components/About.tsx`, and `components/Gallery.tsx`.
