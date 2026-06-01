@@ -37,7 +37,8 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="#home" className="flex items-center gap-3 group">
           <div className="w-10 h-10 bg-[#0E2A47] rounded-xl flex items-center justify-center shadow-sm group-hover:bg-[#1D4ED8] transition-colors">
-            <span className="text-white font-black text-xl">B</span>
+            <span className=
+image: '/images/logo.png', // Upload 'logo.png' into the /public/images/ folder
           </div>
           <span className="font-bold text-xl tracking-tight uppercase text-[#0E2A47]">
             BFIT<sup className="text-sm">®</sup> <span className="text-[#1D4ED8] font-medium hidden sm:inline">Institute</span>
