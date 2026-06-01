@@ -9,7 +9,7 @@ import { ArrowRight, PlayCircle } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    image: '/images/hero-1.jpg', // Upload 'hero-1.jpg' into the /public/images/ folder
+    image: '/images/hero-1.png', // Upload 'hero-1.jpg' into the /public/images/ folder
   },
   {
     id: 2,
