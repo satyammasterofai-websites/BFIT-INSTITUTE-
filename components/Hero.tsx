@@ -16,8 +16,8 @@ const slides = [
     image: '/images/hero-2.jpg', // Upload 'hero-2.jpg' into the /public/images/ folder
   },
   {
-    id: 3,
-    image: '/images/hero-3.jpg', // Upload 'hero-3.jpg' into the /public/images/ folder
+    id: 4,
+    image: '/images/hero-4.jpg', // Upload 'hero-3.jpg' into the /public/images/ folder
   }
 ];
 
