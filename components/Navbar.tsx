@@ -28,7 +28,7 @@ export default function Navbar() {
     { name: 'Courses', href: '#courses' },
     { name: 'Faculty', href: '#faculty' },
     { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', href: '#contact' }
   ];
 
   return (
@@ -44,17 +44,15 @@ export default function Navbar() {
     >
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <Link
-          href="#home"
-          className="flex items-center gap-3 group"
-        >
-          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-sm">
+        <Link href="#home" className="flex items-center gap-3 group">
+          <div className="w-12 h-12 rounded-xl overflow-hidden shadow-sm">
             <Image
               src="/images/logo.png"
               alt="BFIT Logo"
-              width={40}
-              height={40}
-              className="object-cover w-full h-full"
+              width={48}
+              height={48}
+              className="w-full h-full object-contain"
+              priority
             />
           </div>
 
